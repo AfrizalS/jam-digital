@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>I LOVE YOU</title>
 <script type="text/javascript">
  window.onload = function() { jam(); }
 
@@ -24,10 +23,7 @@
 </head>
 <body>
 <center>
-  <p></p>
-  <p></P>
 <h1 style="font-size: 100px; font-family: MODERN;" id="jam"></h1>
-  <P> Wong Kakean Duso &copy; 2020 minutes.co </p>
 </center>
 </body>
 </html>
