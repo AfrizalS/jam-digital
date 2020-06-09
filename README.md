@@ -26,7 +26,7 @@
 <center>
   <p></p>
   <p></P>
-<h1 style="font-size: 120px; font-family: MODERN;" id="jam"></h1>
+<h1 style="font-size: 100px; font-family: MODERN;" id="jam"></h1>
   <P> Wong Kakean Duso &copy; 2020 minutes.co </p>
 </center>
 </body>
