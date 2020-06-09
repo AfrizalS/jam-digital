@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<title>I LOVE YOU</title>
+<script type="text/javascript">
+ window.onload = function() { jam(); }
 
-You can use the [editor on GitHub](https://github.com/AfrizalS/jam-digital/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+ function jam() {
+  var e = document.getElementById('jam'),
+  d = new Date(), h, m, s;
+  h = d.getHours();
+  m = set(d.getMinutes());
+  s = set(d.getSeconds());
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  e.innerHTML = h +':'+ m +':'+ s;
 
-### Markdown
+  setTimeout('jam()', 1000);
+ }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AfrizalS/jam-digital/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ function set(e) {
+  e = e < 10 ? '0'+ e : e;
+  return e;
+ }
+</script>
+</head>
+<body>
+<center>
+  <p></p>
+  <p></P>
+<h1 style="font-size: 120px; font-family: MODERN;" id="jam"></h1>
+  <P> Wong Kakean Duso &copy; 2020 minutes.co </p>
+</center>
+</body>
+</html>
